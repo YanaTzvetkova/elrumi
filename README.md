@@ -2,6 +2,8 @@
 
 This project is a multi-page responsive website created from scratch from a 'client'-provided desing.
 
+Uses the [an example](https://github.com/drewminns/deadset "Deadset") grid system.
+
 The requirements included, but were not limited to:
 
 - Using external .css files
