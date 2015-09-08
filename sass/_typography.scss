@@ -1,0 +1,17 @@
+$heading: 'Montserrat', sans-serif;
+$bodyCopy: 'Droid Serif', serif;
+
+.bodyCopy {
+	font-family: $bodyCopy;
+}
+
+.heading {
+	font-family: $heading;
+	text-transform: uppercase;
+}
+
+.headingOne {
+	font-size:70px;
+	color:white;
+	margin: 0;
+}

@@ -1,0 +1,37 @@
+.home {
+	background: url("hero.jpg");
+}
+
+.headerLogo,
+nav {
+	display:inline-block;
+}
+
+.headerLogo {
+	float:left;
+}
+
+nav {
+	float:right;
+}
+
+h1 {
+	clear:both;
+	text-align: center;
+}
+
+.headerNav {
+	margin: 0;
+	padding: 0;
+	li {
+		list-style: none;
+		float:left;
+	}
+	span {
+		margin:15px;
+	}
+	a {
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+}

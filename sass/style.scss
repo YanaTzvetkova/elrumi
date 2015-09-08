@@ -1,2 +1,21 @@
-@import 'deadset';
 @import 'normalize';
+@import 'deadset';
+@import 'header';
+@import 'footer';
+@import 'typography';
+@import 'home';
+@import 'work';
+@import 'blog';
+
+$teal: #92fcf9;
+$yellow: #ffd96d;
+
+body {
+	font-size: 10px;
+}
+
+.contentWrap {
+	max-width: 940px;
+	// margin:0 auto;
+	@include column(12);
+}

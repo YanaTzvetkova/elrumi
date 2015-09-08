@@ -1,0 +1,24 @@
+.tool {
+	@include column(3);
+}
+
+.service {
+	@include column(6);
+}
+
+#facts {
+	@include column(6);
+	.fact {
+		@include column(4);
+	}
+}
+
+form {
+	input:not([type="submit"]) {
+	@include column(4);
+	}
+	textarea {
+		@include column(12);
+	}
+}
+
